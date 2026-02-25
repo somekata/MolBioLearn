@@ -96,10 +96,16 @@ BLASTには用途に応じた種類があり、DNA配列同士を比較する**B
 ## 🔗 参考リンク
 
 - NCBI BLAST公式  
+  <a href="https://blast.ncbi.nlm.nih.gov/Blast.cgi" target="_blank" rel="noopener noreferrer">
   https://blast.ncbi.nlm.nih.gov/Blast.cgi
+  </a>
 
 - NCBI FASTA format documentation  
+  <a href="https://www.ncbi.nlm.nih.gov/genbank/fastaformat/" target="_blank" rel="noopener noreferrer">
   https://www.ncbi.nlm.nih.gov/genbank/fastaformat/
+  </a>
 
 - EMBL-EBI BLAST  
+  <a href="https://www.ebi.ac.uk/Tools/sss/ncbiblast/" target="_blank" rel="noopener noreferrer">
   https://www.ebi.ac.uk/Tools/sss/ncbiblast/
+  </a>
