@@ -1,0 +1,70 @@
+{
+  "title": "MolBioLearn",
+  "sections": [
+    {
+      "title": "はじめに",
+      "items": [
+        { "title": "この教材について", "file": "md/aboutthis.md" },
+        { "title": "使い方", "file": "md/howtouse.md" }
+      ]
+    },    
+    {
+      "title": "遺伝・染色体",
+      "items": [
+        { "title": "染色体と核型（46XY）", "file": "md/karyotype.md" },
+        { "title": "セントラルドグマ", "file": "md/central_dogma.md" },
+        { "title": "遺伝子発現", "file": "md/gene_expression.md" }
+      ]
+    },
+    {
+      "title": "DNAの複製・転写・翻訳",
+      "items": [
+        { "title": "DNAの構造と複製", "file": "md/dna_replication.md" },
+        { "title": "転写", "file": "md/transcription.md" },
+        { "title": "翻訳", "file": "md/translation.md" }
+      ]
+    },
+    {
+      "title": "核酸増幅と検出",
+      "items": [
+        { "title": "核酸増幅法（PCR・LAMP）", "file": "md/pcr_lamp.md" },
+        { "title": "定量的PCR（qPCR）", "file": "md/qpcr.md" }
+      ]
+    },
+    {
+      "title": "シークエンス技術",
+      "items": [
+        { "title": "次世代シークエンサー（NGS）", "file": "md/ngs.md" }
+      ]
+    },
+    {
+      "title": "ゲノム解析・バイオインフォマティクス",
+      "items": [
+        { "title": "ゲノム解析", "file": "md/genome_analysis.md" },
+        { "title": "BLAST", "file": "md/blast.md" },
+        { "title": "メタゲノム", "file": "md/metagenome.md" }
+      ]
+    },
+    {
+      "title": "遺伝子操作と変異",
+      "items": [
+        { "title": "遺伝子組換えと遺伝子編集", "file": "md/gene_engineering.md" },
+        { "title": "遺伝子操作", "file": "md/gene_manipulation.md" },
+        { "title": "遺伝子変異・多型", "file": "md/mutations_polymorphisms.md" },
+        { "title": "クローンとモノクローナル抗体", "file": "md/clones_mab.md" }
+      ]
+    },
+    {
+      "title": "エピジェネティクス",
+      "items": [
+        { "title": "エピゲノム", "file": "md/epigenome.md" }
+      ]
+    },
+    {
+      "title": "注意事項",
+      "items": [
+        { "title": "注意書き", "file": "md/caution.md" }
+      ]
+    }    
+  ]
+}

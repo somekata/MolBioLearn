@@ -1,0 +1,231 @@
+/* ==============================
+   基本設定
+================================= */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Roboto, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  background: #f7f9fc;
+  color: #222;
+  line-height: 1.7;
+}
+
+/* ==============================
+   レイアウト
+================================= */
+.layout {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  height: 100vh;
+}
+
+/* ==============================
+   サイドバー
+================================= */
+.sidebar {
+  background: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.sidebar-header {
+  padding: 18px 16px;
+  border-bottom: 1px solid #eee;
+  background: #fafafa;
+}
+
+.logo {
+  margin: 0 0 12px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+#searchBox {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+#searchBox:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+/* 目次 */
+#toc {
+  overflow-y: auto;
+  padding: 8px 0;
+  flex: 1;
+}
+
+.section {
+  padding: 4px 12px;
+}
+
+.section summary {
+  font-weight: 600;
+  cursor: pointer;
+  padding: 6px 4px;
+  color: #374151;
+}
+
+.item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 6px 12px;
+  margin: 2px 0;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.item:hover {
+  background: #eef2ff;
+}
+
+.item.active {
+  background: #4f46e5;
+  color: white;
+  font-weight: 600;
+}
+
+/* ==============================
+   コンテンツ表示
+================================= */
+.content {
+  overflow-y: auto;
+  padding: 40px;
+  margin-bottom: 50px;
+}
+
+.viewer {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+/* 見出し */
+.viewer h1 {
+  font-size: 28px;
+  margin-top: 0;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 10px;
+}
+
+.viewer h2 {
+  font-size: 22px;
+  margin-top: 32px;
+  border-left: 4px solid #4f46e5;
+  padding-left: 10px;
+}
+
+.viewer h3 {
+  font-size: 18px;
+  margin-top: 24px;
+}
+
+/* リスト */
+.viewer ul {
+  padding-left: 20px;
+}
+
+/* コードブロック */
+.viewer pre {
+  background: #111827;
+  color: #f9fafb;
+  padding: 14px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+.viewer code {
+  font-family: Consolas, monospace;
+  font-size: 13px;
+}
+
+/* 表 */
+.viewer table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.viewer th,
+.viewer td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.viewer th {
+  background: #f3f4f6;
+}
+
+/* ==============================
+   フッター
+================================= */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #111827;
+  color: #f9fafb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  font-size: 13px;
+}
+
+.footer a {
+  color: #93c5fd;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-right {
+  display: flex;
+  gap: 12px;
+}
+
+/* ==============================
+   モバイル対応
+================================= */
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    height: 40vh;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .viewer {
+    padding: 24px;
+  }
+}
+
