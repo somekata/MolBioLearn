@@ -13,7 +13,8 @@
       "items": [
         { "title": "染色体と核型（46XY）", "file": "md/karyotype.md" },
         { "title": "セントラルドグマ", "file": "md/central_dogma.md" },
-        { "title": "遺伝子発現", "file": "md/gene_expression.md" }
+        { "title": "遺伝子発現", "file": "md/gene_expression.md" },
+        { "title": "コラム：遺伝の歴史", "file": "md/history_gene.md" }
       ]
     },
     {
